@@ -12,4 +12,4 @@ menu:
     weight: 3
 layout: page
 ---
-Here's a bit more text. Not much but at least it's something.
+Here's a bit more text. Not much but at least it's something. Here's a quick change for checking.
