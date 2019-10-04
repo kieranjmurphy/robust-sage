@@ -2,7 +2,7 @@
 title: Interesting Matter
 home_style: style2
 home_img: /images/pic05.jpg
-excerpt: Here's a bit of test that should be intresting.
+excerpt: Here's a bit of test that should be intresting. Here's an update.
 date: 2019-10-04T11:32:32.643Z
 img_src: /images/pic02.jpg
 menu:
