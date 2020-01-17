@@ -3,7 +3,7 @@ title: January Diary
 home_style: style3
 home_img: images/pic01.jpg
 excerpt: What's on in January 2020
-date: '2019-10-05'
+date: '2020-01-17'
 img_src: images/pic04.jpg
 layout: page
 ---
