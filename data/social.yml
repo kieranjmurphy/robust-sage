@@ -1,27 +1,18 @@
 enabled: true
-title: Follow
+title: Contact Us Now
 follow_section:
   - title: Twitter
     icon: fa-twitter
     link_url: '#'
-  - title: Facebook
-    icon: fa-facebook
-    link_url: '#'
   - title: Instagram
     icon: fa-instagram
     link_url: '#'
-  - title: Dribbble
-    icon: fa-dribbble
-    link_url: '#'
-  - title: GitHub
-    icon: fa-github
-    link_url: '#'
-  - title: 500px
-    icon: fa-500px
-    link_url: '#'
+  - title: Whatsapp
+    icon: fa-whatsapp
+    link_url: 'https://api.whatsapp.com/send?phone=+447815292005'
   - title: Phone
     icon: fa-phone
-    link_url: '#'
+    link_url: '+447815292005'
   - title: Email
     icon: fa-envelope-o
-    link_url: '#'
+    link_url: 'mailto:kieranjmurphhy@gmail.com'
