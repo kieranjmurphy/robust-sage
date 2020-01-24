@@ -1,18 +1,21 @@
 enabled: true
 title: Contact Us Now
 follow_section:
-  - title: Twitter
-    icon: fa-twitter
-    link_url: '#'
-  - title: Instagram
-    icon: fa-instagram
-    link_url: '#'
   - title: Whatsapp
     icon: fa-whatsapp
     link_url: 'https://api.whatsapp.com/send?phone=+447815292005'
+  - title: SMS
+    icon: fa-sms
+    link_url: 'sms:+447815292005'
+  - title: Twitter
+    icon: fa-twitter
+    link_url: 'https://twitter.com/messages/compose?recipient_id=15853194'
   - title: Phone
     icon: fa-phone
-    link_url: '+447815292005'
+    link_url: 'tel:+447815292005'
+  - title: Twitter
+    icon: fa-twitter
+    link_url: 'https://twitter.com/messages/compose?recipient_id=15853194'
   - title: Email
     icon: fa-envelope-o
-    link_url: 'mailto:kieranjmurphhy@gmail.com'
+    link_url: 'mailto:kieranjmurphy@gmail.com'
