@@ -1,6 +1,6 @@
 <section>
     <h2>{{ .Site.Data.contact.title }}</h2>
-    <form name="contact" method="POST" data-netlify="true">
+    <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
         <div class="fields">
             <div class="field half">
                 <input type="text" name="name" id="name" placeholder="Name" />
@@ -11,6 +11,7 @@
             <div class="field">
                 <textarea name="message" id="message" placeholder="Message"></textarea>
             </div>
+            <div data-netlify-recaptcha="true"></div>
         </div>
         <ul class="actions">
             <li><input type="submit" value="Send" class="primary" /></li>

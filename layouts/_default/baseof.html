@@ -31,5 +31,14 @@
         <script src="{{ "assets/js/breakpoints.min.js" | relURL }}"></script>
         <script src="{{ "assets/js/util.js" | relURL }}"></script>
         <script src="{{ "assets/js/main.js" | relURL }}"></script>
+        <script type="text/javascript">
+        $("#contact").submit(function(e) {
+        e.preventDefault();
+        var $form = $(this);
+        $.post($form.attr("action"), $form.serialize()).then(function() {
+            alert("Thanks, we'll be in touch.");
+            });
+        });
+        </script>
     </body> 
 </html>
