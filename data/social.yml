@@ -5,7 +5,7 @@ follow_section:
     icon: fa-whatsapp
     link_url: 'https://api.whatsapp.com/send?phone=+447815292005'
   - title: SMS
-    icon: fa-sms
+    icon: fa-comment
     link_url: 'sms:+447815292005'
   - title: Twitter
     icon: fa-twitter
@@ -13,9 +13,6 @@ follow_section:
   - title: Phone
     icon: fa-phone
     link_url: 'tel:+447815292005'
-  - title: Twitter
-    icon: fa-twitter
-    link_url: 'https://twitter.com/messages/compose?recipient_id=15853194'
   - title: Email
     icon: fa-envelope-o
     link_url: 'mailto:kieranjmurphy@gmail.com'
