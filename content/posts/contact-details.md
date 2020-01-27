@@ -7,9 +7,9 @@ date: 2019-10-04T11:32:32.643Z
 img_src: /images/pic02.jpg
 menu:
   main:
-    identifier: interesting-matter
-    name: Interesting Matter
-    weight: 3
+    identifier: contact-details
+    name: Contact Details
+    weight: 2
 layout: page
 ---
 Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.

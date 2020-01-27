@@ -5,7 +5,7 @@
         {{ .Content }}
     </header>
     <section class="tiles">
-        {{ range $post := ((.Site.GetPage "section" "/posts").Pages).ByDate.Reverse }}
+        {{ range $post := ((.Site.GetPage "section" "/posts").Pages).ByWeight }}
             <article class="{{ $post.Params.home_style }}">
                 <span class="image">
                     <img src="{{ $post.Params.home_img | relURL }}" alt="" />
