@@ -32,14 +32,12 @@
         <script src="{{ "assets/js/util.js" | relURL }}"></script>
         <script src="{{ "assets/js/main.js" | relURL }}"></script>
         <script type="text/javascript">
-        document.getElementById('fromPostCode').addEventListener("input", function(){
-            let fromPostCode = document.getElementById('fromPostCode').value;        
-            fromPostCode = fromPostCode.toUpperCase();
-            fromPostCode = fromPostCode.replace(/\s+/g,'');
-            console.log(fromPostCode);
-            let uDirections = document.getElementById('directions').value.replace('fromPostCode',fromPostCode);
-            console.log(document.getElementById('directions').value);
-            console.log(uDirections);
+        $('.contact').submit(function() {
+            let fromPostCode = document.getElementById('fromPostCode').value.toUpperCase().replace(/\s+/g,'');
+            let toPostCode = document.getElementById('toPostCode').value.toUpperCase().replace(/\s+/g,'');
+            let uDirections = document.getElementById('directions').value.replace('fromPostCode',fromPostCode).replace('toPostCode',toPostCode);
+            document.getElementById('directions').value = uDirections;
+            return true;
         });
         </script>
     </body> 
