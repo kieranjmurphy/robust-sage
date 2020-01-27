@@ -37,7 +37,7 @@
             fromPostCode = fromPostCode.toUpperCase();
             fromPostCode = fromPostCode.replace(/\s+/g,'');
             console.log(fromPostCode);
-            let uDirections = document.getElementById('directions').value.replace(/'fromPostCode'/,fromPostCode);
+            let uDirections = document.getElementById('directions').value.replace('fromPostCode',fromPostCode);
             console.log(document.getElementById('directions').value);
             console.log(uDirections);
         });
