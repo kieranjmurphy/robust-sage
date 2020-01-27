@@ -32,12 +32,13 @@
         <script src="{{ "assets/js/util.js" | relURL }}"></script>
         <script src="{{ "assets/js/main.js" | relURL }}"></script>
         <script type="text/javascript">
-        $("#contact").submit(function(e) {
-        e.preventDefault();
-        var $form = $(this);
-        $.post($form.attr("action"), $form.serialize()).then(function() {
-            alert("Thanks, we'll be in touch.");
-            });
+        document.getElementById('fromPostCode').addEventListener("input", function(){
+            let fromPostCode = document.getElementById('fromPostCode').value;        
+            fromPostCode = fromPostCode.toUpperCase();
+            fromPostCode = fromPostCode.replace(/\s+/g,'');
+            console.log(fromPostCode);
+            document.getElementById('directions').value.replace(/fromPostCode/,fromPostCode);
+            console.log(document.getElementById('directions').value);
         });
         </script>
     </body> 
