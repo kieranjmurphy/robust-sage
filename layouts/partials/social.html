@@ -1,8 +1,9 @@
 <section>
     <h2>{{ .Site.Data.social.title }}</h2>
+    <p>{{ .Site.Data.social.tag }}</p>
     <ul class="icons">
         {{ range $link := .Site.Data.social.follow_section }}
-            <li><a href="{{ $link.link_url | safeURL }}" class="icon style2 {{ $link.icon }}"><span class="label">{{ $link.title }}</span></a></li>
+            <li><a href="{{ $link.link_url | safeURL }}" title="{{ $link.tooltip }}" class="icon style2 {{ $link.icon }}"><span class="label">{{ $link.title }}</span></a></li>
         {{ end }}
     </ul>
 </section>
