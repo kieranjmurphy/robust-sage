@@ -1,18 +1,29 @@
 enabled: true
 title: Contact Us Now
+tag: You can contact us in the following ways so we don't miss you
 follow_section:
   - title: Whatsapp
     icon: fa-whatsapp
-    link_url: 'https://api.whatsapp.com/send?phone=+447815292005'
+    #link_url: 'https://api.whatsapp.com/send?phone=+447815292005'
+    link_url: 'https://api.whatsapp.com/send?phone=+447815292006'
+    tooltip: 'Send us a message on Whatsapp'
   - title: SMS
     icon: fa-comment
-    link_url: 'sms:00447815292005'
+    #link_url: 'sms:00447815292005'
+    link_url: 'sms:00447815292006'
+    tooltip: 'Send us a a SMS message'
   - title: Twitter
     icon: fa-twitter
-    link_url: 'https://twitter.com/messages/compose?recipient_id=15853194'
+    #link_url: 'https://twitter.com/messages/compose?recipient_id=15853194'
+    link_url: 'https://twitter.com/messages/compose?recipient_id=15853195'
+    tooltip: 'Send us a Twitter DM'
   - title: Phone
     icon: fa-phone
-    link_url: 'tel:00447815292005'
+    #link_url: 'tel:00447815292005'
+    link_url: 'tel:00447815292006'
+    tooltip: 'Just phone us'
   - title: Email
     icon: fa-envelope-o
-    link_url: 'mailto:kieranjmurphy@gmail.com'
+    #link_url: 'mailto:kieranjmurphy@gmail.com'
+    link_url: 'mailto:joebloggs@qmail.com'
+    tooltip: 'Email us'
